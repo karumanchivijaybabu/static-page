@@ -1,0 +1,146 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    background-color: #B5D8FF;
+    height: 45.5rem;
+    width: 65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: transform 0.1s ease-in-out;
+
+}
+#container.zoomed-out{
+    cursor: zoom-in;
+}
+
+#box1{
+    background-color:#5c9ce5 ;
+    width: 55rem;
+    height: 38rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: end;
+   
+
+}
+#box{
+    position: relative;
+   
+}
+#box img{
+    border-radius: 2rem;
+   
+}
+#box h2{
+    position: absolute;
+    top: 6rem;
+    right:2rem;
+    font-size: 6rem;
+    color: white;
+    font-weight: 300;
+   
+}
+#box h5{
+    position: absolute;
+    top: 15.5rem;
+    right: 5rem;
+    color: white;
+    font-size: large;
+  
+}
+#box h6{
+    position:absolute;
+    color: white;
+    bottom: 32rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    
+}
+#box2{
+    background-color: #e4f1ff;
+    height: 38rem;
+    width: 42rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+#box3{
+    background-color: #e4f1ff;
+    height: 19rem;
+    width: 42rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#box4{
+    background-color: #e4f1ff;
+    height: 19rem;
+    width: 42rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+#box5{
+    background-color: #e4f1ff;
+    height:11rem;
+    width: 42rem;
+    border-radius: 2rem;
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+
+#box6{
+    background-color: #e4f1ff;
+    height:8rem;
+    width: 42rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#subBox{
+    background-color: white;
+    height: 13rem;
+    width: 35rem;
+    border-radius: 2rem;
+  
+}
+.subBox1{
+    background-color: white;
+    height: 6rem;
+    width: 10rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
+}
+.subBox2{
+    background-color: white;
+    height: 6rem;
+    width: 10rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.zoomed {
+    transform:scale(1.2);
+    cursor: zoom-out;
+  }
